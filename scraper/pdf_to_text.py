@@ -1,11 +1,27 @@
 import pdfplumber
+import fitz  # PyMuPDF
 
 def pdf_to_text(path):
-    text = ""
+    # Önce pdfplumber dene
     try:
+        text = ""
         with pdfplumber.open(path) as pdf:
             for page in pdf.pages:
                 text += page.extract_text() or ""
+        if text.strip():
+            return text
     except:
         pass
-    return text
+    
+    # Olmadıysa PyMuPDF dene
+    try:
+        doc = fitz.open(path)
+        text = ""
+        for page in doc:
+            text += page.get_text()
+        if text.strip():
+            return text
+    except:
+        pass
+    
+    return ""
