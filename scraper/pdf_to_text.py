@@ -2,7 +2,7 @@ import pdfplumber
 import fitz  # PyMuPDF
 
 def pdf_to_text(path):
-    # Önce pdfplumber dene
+
     try:
         text = ""
         with pdfplumber.open(path) as pdf:
@@ -13,7 +13,7 @@ def pdf_to_text(path):
     except:
         pass
     
-    # Olmadıysa PyMuPDF dene
+
     try:
         doc = fitz.open(path)
         text = ""
