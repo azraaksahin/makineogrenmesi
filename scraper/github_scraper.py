@@ -1,7 +1,5 @@
-# scraper/github_scraper.py
 from selenium import webdriver
 from selenium.webdriver.common.by import By
-from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.chrome.service import Service
 from webdriver_manager.chrome import ChromeDriverManager
 import time
@@ -9,10 +7,17 @@ import time
 def scrape_github(query="resume pdf"):
     options = webdriver.ChromeOptions()
     options.add_argument("--start-maximized")
-
+    options.add_argument("--remote-debugging-port=9222")
+    options.add_argument("--no-sandbox")
+    options.add_argument("--disable-dev-shm-usage")
+    options.add_argument("user-data-dir=C:\\temp\\chrome_selenium")
+   # options.add_argument("user-data-dir=C:\\Users\\irem\\AppData\\Local\\Google\\Chrome\\User Data")
+    #options.add_argument("profile-directory=Default")
     driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()), options=options)
 
-    driver.get("https://github.com/search?q=" + query + "&type=code")
+    url = f"https://github.com/search?q={query}&type=repositories"
+    driver.get(url)
+
     time.sleep(3)
 
     links = set()
@@ -22,7 +27,7 @@ def scrape_github(query="resume pdf"):
 
         for e in elements:
             href = e.get_attribute("href")
-            if href and "github.com" in href:
+            if href and ".pdf" in href.lower():
                 links.add(href)
 
         try:

@@ -22,7 +22,7 @@ def temizle(metin):
     return " ".join(temiz_kelimeler)
 
 # CSV dosyasını oku
-df = pd.read_csv(r'C:\Users\lenovo\OneDrive\Desktop\cv_dataset_hazir.csv')
+df = pd.read_csv("data/cv_dataset_hazir.csv")
 
 # ÖNEMLİ: Boş satırları tamamen temizle veya stringe çevir
 df['cv_metni'] = df['cv_metni'].fillna('') 
@@ -37,5 +37,5 @@ df = df[df['temiz_metin'] != ""]
 print(df[['dosya_adi', 'temiz_metin']].head())
 
 # Kaydet
-df.to_csv(r'C:\Users\lenovo\OneDrive\Desktop\cv_dataset_islenmis.csv', index=False)
+df.to_csv("data/cv_dataset_islenmis.csv", index=False)
 print("İşlem başarıyla tamamlandı!")

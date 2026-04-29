@@ -4,7 +4,7 @@ from sklearn.metrics.pairwise import cosine_similarity
 import matplotlib.pyplot as plt
 
 # 1. İşlenmiş veriyi oku
-df = pd.read_csv(r'C:\Users\lenovo\OneDrive\Desktop\cv_dataset_islenmis.csv')
+df = pd.read_csv("data/cv_dataset_islenmis.csv")
 
 # 2. Hayali bir İş İlanı oluştur
 is_ilani = "Java Fullstack Developer Spring Boot SQL Angular Javascript Agile"
@@ -40,7 +40,7 @@ df['risk_durumu'] = df['temiz_metin'].apply(risk_analizi)
 df_sirali = df.sort_values(by='uygunluk_skoru', ascending=False)
 
 # Masaüstüne rapor olarak kaydet
-df_sirali.to_csv(r'C:\Users\lenovo\OneDrive\Desktop\aday_risk_ve_puan_analizi.csv', index=False)
+df_sirali.to_csv("data/aday_risk_ve_puan_analizi.csv", index=False)
 
 # 6. Görselleştirme (Grafik)
 top_10 = df_sirali.head(10)
