@@ -1,8 +1,10 @@
 import pdfplumber
-import fitz  # PyMuPDF
+import fitz
+from bs4 import BeautifulSoup
 
 def pdf_to_text(path):
 
+    
     try:
         text = ""
         with pdfplumber.open(path) as pdf:
@@ -12,8 +14,8 @@ def pdf_to_text(path):
             return text
     except:
         pass
-    
 
+   
     try:
         doc = fitz.open(path)
         text = ""
@@ -23,5 +25,17 @@ def pdf_to_text(path):
             return text
     except:
         pass
+
     
+    try:
+        with open(path, "r", encoding="utf-8", errors="ignore") as f:
+            html = f.read()
+
+        if "<html" in html.lower():
+            soup = BeautifulSoup(html, "html.parser")
+            text = soup.get_text(separator=" ")
+            return text
+    except:
+        pass
+
     return ""

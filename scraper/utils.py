@@ -1,29 +1,37 @@
+import re
+
 def is_real_cv(text):
-    if not isinstance(text, str) or len(text.split()) < 100:
+    if not isinstance(text, str):
         return False
-    
-    # kesin sahte/alakasız işaretler
-    fake_keywords = [
-        "placeholder", "template", "this pdf should", "replace this",
-        "project gutenberg", "end of document", "disciplinary",
-        "<!doctype", "<html", "copyright", "license agreement",
-        "terms of use", "all rights reserved", "navbar", "stylesheet",
-        "which of the following", "correct answer", "no.", "select two",
-        "select three", "devops engineer", "aws codedeploy", "cloudformation",
-        "exam", "question", "answer:", "option a", "option b"
-    ]
+
     text_lower = text.lower()
-    for kw in fake_keywords:
-        if kw in text_lower:
-            return False
+
+
+    if len(text.split()) < 30:
+        return False
+
+    score = 0
+
+
+    if "experience" in text_lower:
+        score += 1
+
+    if "education" in text_lower:
+        score += 1
+
+    if "skills" in text_lower:
+        score += 1
+
+
+    if any(j in text_lower for j in ["engineer", "developer", "intern", "manager"]):
+        score += 2
+
+    # email varsa bonus
+    if re.search(r"\S+@\S+\.\S+", text):
+        score += 2
+
     
-    # gerçek CV'de olması gereken kelimeler — en az 4 eşleşmeli
-    real_keywords = [
-        "experience", "education", "skills", "university",
-        "worked", "bachelor", "master", "degree", "graduated",
-        "position", "company", "developer", "engineer",
-        "manager", "intern", "gpa", "certificate", "summary"
-    ]
-    matches = sum(1 for kw in real_keywords if kw in text_lower)
-    
-    return matches >= 4
+    if "linkedin" in text_lower or "github" in text_lower:
+        score += 1
+
+    return score >= 2
