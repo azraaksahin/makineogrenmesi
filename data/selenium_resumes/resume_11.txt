@@ -1,0 +1,40 @@
+Incognito Giraffe
+Casa Blanca, NM
+example@email.com
+(555)123-4567
+Summary
+Passionate data scientist with 6 years of experience in different areas of data mining and statistical analysis. Fully qualified for applying machine learning techniques to real-world problems.
+Education
+Zirkel College
+Master's Degree in Computer Science • Los Angeles, California
+Skills
+Regression Analysis, Machine Learning, Spark, Sas, Python, Aws, Ai
+Experience
+Expert Computer Services
+April 2019 - Present
+Data Scientist • Los Angeles, California
+Identified, designed and implemented a web scraping, data extraction and reporting service for the company that saved the company $100k annually
+Translated multiple languages and prepared data for analysis in Excel spreadsheets, with the assistance of 7 translators and 6 support staff
+Created a database of all published research, papers and presentations, increasing research output by 20%
+Collaborated with the lead researcher in a collaborative research project involving data science, applied mathematics and machine learning
+Helped the company implement new data mining techniques such as Bayesian network inference and neural network classification, resulting in a 30% increase in classification accuracy
+Developed an automated survey program for gaining feedback from customers, which resulted in a 10% increase in customer feedback volume.
+I
+May 2017
+Data Scientist • Los Angeles, California
+Developed algorithms using machine learning and data mining techniques for data analysis and reporting
+Created self-service tools for data analysis and reporting
+Utilized text analysis, frequency analysis and sentiment analysis to produce reports with 66% accuracy
+Created a web application that reports on the current state of the IT infrastructure, allowing for easier maintenance and improvement of the system
+Created a business intelligence system for the company's performance and growth
+Worked with 3 other team members to create a data visualization tool for internal use
+East-West Digital Data
+November 2015
+Data Scientist • Los Angeles, California
+Performed data analysis for studies related to sports, traffic and customer activation
+Created infrastructure for data analysis, creating a new system to track daily metrics to analyze the effectiveness of sales channel strategies
+Created a process to track marketing campaigns and generate reports, increasing the effectiveness of marketing campaigns by 6% within a month
+Created a statistical model to predict brand performance based on consumer behavior
+Created a tool to identify new sales opportunities and measure the impact on sales, increasing revenue by $100k
+Performed data analysis for a customer retention study, identifying 14% in-store customer satisfaction from a sample of 120 customers
+Created a website to track daily sales metrics, determining weekly sales by category and generating reports on weekly sales

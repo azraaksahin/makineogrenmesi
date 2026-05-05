@@ -1,0 +1,36 @@
+Unnamed Tiger
+example@email.com
+(555)123-4567
+Bowersville, OH
+Summary
+Professional and highly trained engineer with 5 years of experience in creating engineering solutions to complex manufacturing problems. With senior engineering roles, led single-source development teams and implemented lean principles and tools.
+Education
+Bachelor's Degree in Engineering
+Dalton University Orlando, Florida
+Skills
+Azure, Communication Skills, Microsoft Office, Linux, Agile, C++, Apis
+Experience
+Jablito Industries
+June 2019 - Present
+Engineer - Orlando, Florida
+Researched a new metric for tracking project performance and success, resulting in a 10% increase in projects completed
+Performed installation of software and hardware in accordance with specifications
+Increased the efficiency of the company's server environment by 42%
+Established and maintained a database of all hardware components and software necessary for proper system operation
+Maintained detailed knowledge of all project deliverables and contributed to the company's digital and print media by creating television commercials, radio spots and web content
+Arrow
+October 2017
+Test Engineer - Orlando, Florida
+Performed quality assurance and testing of applications, ensuring they meet or exceed requirements
+Utilized automated test tools to reduce regression testing by 30%
+Improved application performance by 20% through increased utilization of database indexes and stored procedures
+Developed training materials to provide technical support to new employees on the use of the software
+Provided technical support for 11 clients, increasing revenue by 20% and increasing customer satisfaction by 25%
+Troubleshooted intermittent computing issues, and provided technical support for 12 clients, resulting in a 50% increase in client retention rate
+Infra Tech
+June 2016
+Program Engineer - Orlando, Florida
+Began developing a new software application by analyzing the problem, gaining a full understanding of the product and determining the best possible solution
+Implemented new software development practices, such as agile product management
+Facilitated software testing, integrating 20 new features into the system in 3 months
+Established strong relationships with executives and the QA team, resulting in a 40% increase in new customers and a 25% increase in sales

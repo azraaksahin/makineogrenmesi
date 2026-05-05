@@ -1,0 +1,33 @@
+Anonymous Bird
+example@email.com
+(555)123-4567
+Dover, NH
+Summary
+Electrical engineer with strong math background and 4 years of experience using R programming language to solve challenging business problems. Able to design software for databases and other systems while creating efficient programs.
+Skills
+C++, Apis, Aws, Java, Computer Networking, Microsoft Excel, Linux
+Experience
+Engineer
+Shrubs • Orlando, Florida
+August 2020 - Present
+Researched and designed a new database structure that solved a critical data management problem, resulting in a 20% reduction in application response time
+Created a software component that reduced the use of in-house resources to 15%, resulting in greater efficiency
+Designed and implemented an automated production process for a client, resulting in a 30% reduction in time to ship product
+Increased productivity and efficiency by 10% through better project management and collaboration with colleagues
+Customer Service Representative
+Tasty Twister Inc. • Orlando, Florida
+March 2019
+Recruited, hired, trained and supervised 3 new customer service representatives to support 100 customers per week
+Achieved outstanding service ratings for a company-wide program of annual training on cold calls, answering calls with a friendly demeanor and providing a seamless customer service experience
+Achieved a 99% customer retention rate through a firm understanding of client needs and a willingness to customize customer service to address their specific needs
+Watch Engineer
+Citizen Watch Co. • Orlando, Florida
+September 2017
+Designed, built and maintained an innovative watch that could set multiple time zones and alarms in the hazardous environment of a nuclear power plant
+Responsible for the functioning of an automatic control loop, which ensured that the watch's hands adjusted to the correct time zone and the alarm function was set
+Worked directly with 3 different teams, from mechanical design engineers to electrical engineers to quality assurance engineers, to ensure that the watch would function as designed
+Implemented a new software testing process to ensure that the watch functioned as planned
+Accurately tracked and maintained all electronic components within the watch
+Education
+Bachelor's Degree in Engineering
+Dalton University • Orlando, Florida

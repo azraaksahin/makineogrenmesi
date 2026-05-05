@@ -1,0 +1,39 @@
+Unnamed Dog
+Martelle, IA
+example@email.com
+(555)123-4567
+Summary
+Devops professional with 5 years of experience in providing IT infrastructure management for distributed deployments, and leading virtual machine provisioning, configuration and update projects.
+Education
+Krebs Mountain College
+Bachelor's Degree in Computer Science • Houston, Texas
+Skills
+Linux, Shell Scripting, Java, Kubernetes, Aws, Ansible, Python
+Experience
+Wattlebone Systems
+March 2020 - Present
+Development Operations Engineer • Houston, Texas
+Managed a team of 3 developers to implement and maintain a custom CRM system for the company
+Did lead projects for 3 client projects, resolving issues in 2 weeks or less on average
+Increased the revenue per customer by 7%
+Met with clients and analysts to demonstrate solution's effectiveness, refine user interface and develop new features
+Maintained systems and kept operational and technical documentation for client projects
+Collaborated with software engineers to create innovative solutions, such as custom dashboards, reporting and integration with third-party ERP and CRM systems
+Researched and implemented best practices based on data from company research and reviews of industry and competitor products to increase performance
+Perpetual Software
+July 2018
+Sr. Devops Engineer • Houston, Texas
+Implemented a devops process and toolchain that allowed for increased engineering velocity and reduced architectural complexity.
+Researched new and emerging technologies to improve the company's overall IT capabilities
+Managed the 12+ developers using an Agile methodology, creating a culture of continuous improvement and empowerment
+Provided solutions to resolve build and deploy issues that prevented 2,000+ updates from successfully deploying
+Researched and deployed new software to meet the company's infrastructure requirements for the new year
+Somewhere
+October 2016
+Sr. Devops/Aws Engineer • Houston, Texas
+Implemented a web-based communications portal for all staff members
+Maintained close relationships with clients and community at large through social media, email and phone
+Created a culture of open communication and transparency by regularly attending staff meetings and keeping all team members informed of important company events
+Created a culture of trust and respect by forming and holding regular one-on-one mentoring sessions with team members
+Delivered high service levels by maintaining a 95% service level agreement rate during peak times
+Increased efficiency by using the latest technologies, including AWS, AWS Lambda, AWS CloudFormation, AWS CodeStar, AWS SDKs, AWS Virtual Private Cloud and more
