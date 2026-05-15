@@ -2,3 +2,8 @@
 data_downloaded/
 __pycache__/
 *.pyc
+data/raw/
+outputs/transformers/
+*.zip
+__pycache__/
+.ipynb_checkpoints/
