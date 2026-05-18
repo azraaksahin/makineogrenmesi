@@ -1,0 +1,2 @@
+﻿model,model_name,accuracy,precision,recall_sensitivity,specificity,f1_score,auc,training_time_sec,inference_time_sec
+distilbert,distilbert-base-uncased,0.9758713136729222,0.9425287356321839,0.9534883720930233,0.9825783972125436,0.9479768786127167,0.9908840450530751,146.12678599357605,3.0756521224975586

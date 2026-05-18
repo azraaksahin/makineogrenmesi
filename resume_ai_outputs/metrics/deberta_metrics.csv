@@ -1,0 +1,2 @@
+﻿model,model_name,accuracy,precision,recall_sensitivity,specificity,f1_score,auc,training_time_sec,inference_time_sec
+deberta,microsoft/deberta-v3-small,0.7694369973190348,0.0,0.0,1.0,0.0,0.5,79.23738932609558,1.4886624813079834

@@ -7,3 +7,4 @@ outputs/transformers/
 *.zip
 __pycache__/
 .ipynb_checkpoints/
+resume_ai_outputs/transformers/
