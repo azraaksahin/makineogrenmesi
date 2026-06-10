@@ -8,3 +8,9 @@ outputs/transformers/
 __pycache__/
 .ipynb_checkpoints/
 resume_ai_outputs/transformers/
+analiz.py
+cv_dataset_hazir.csv
+cv_dataset_islenmis.csv
+model.py
+preprocess.py
+puanlama.py
